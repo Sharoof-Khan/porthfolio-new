@@ -18,7 +18,7 @@ const CardEducation = ({ degree, university, duration, imageicon }) => {
           className="w-auto h-[40px] rounded-md group-hover:scale-110 transition-all delay-100 duration-500 -ml-2 "
         />
       </div>
-      <p className="text-ellipsis  text-white text-[17px] py-2 group-hover:scale-110 transition-all delay-100 duration-500 group-hover:text-[#ff004f]">
+      <p className="text-ellipsis  text-white text-[17px] py-2  transition-all delay-100 duration-500 group-hover:text-[#ff004f]">
         {degree}
       </p>
       <p className=" text-ellipsis font-bold  text-[#ff004f] ">{university}</p>

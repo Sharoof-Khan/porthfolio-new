@@ -3,7 +3,7 @@ import img from "../../images/animation_lmuefj2f.json";
 import Lottie from "lottie-react";
 import Typewriter from "typewriter-effect/dist/core";
 import { motion } from "framer-motion";
-import { name } from "../../constent/constent";
+import { description, name } from "../../constent/constent";
 
 const PageTransion = {
   in: {
@@ -47,22 +47,21 @@ const Home = () => {
       variants={PageTransion}
       className="flex lg:min-h-[70vh] lg:justify-between flex-wrap md:justify-center"
     >
-      <div className="flex  flex-col font-extrabold justify-center h-64 lg:h-96 lg:mb-4  lg:flex-col  lg:ml-36 lg:mt-48  lg:justify-start ">
-        <div className="flex flex-col">
-          <h1 className=" flex justify-center  text-[30px]  first:even: text-[#ff004f] lg:text-[40px] ">
+      <div className="flex  flex-col font-extrabold justify-center  h-64 lg:h-96 lg:mb-4  lg:flex-col  lg:ml-36 lg:mt-36 lg:justify-start ">
+        <div className="flex flex-col border-0">
+          <h1 className=" flex justify-center border-0 text-[30px] text-[#ff004f] lg:text-[40px]">
             Hey,I am {name}
           </h1>
-          <h2 className=" flex justify-center text-[#4ee2ceb6]">
+          <h2 className=" flex justify-center text-[#4ee2ceb6] border-0">
             <span className="ml-2 lg:font-semibold" ref={typewriterRef}></span>
           </h2>
-          <p className=" flex justify-center  px-8 text-ellipsis mt-2 text-white  lg:ml-10 leading-2  lg:w-[330px]  text-center italic   ">
-            I'm currently a Full Stack Developer seeking many ways to improve my
-            skills through problem-solving and creating various projects!
-            Explore NavBar to learn more about me.
+          {/* <p className=" border border-red-900 flex    text-ellipsis mt-2 text-white  lg:ml-10 leading-2  lg:max-w-[25vw]  text-start italic   "> */}
+          <p className=" border-0 border-red-900  lg:max-w-[25vw]  px-8 md:px-8 lg:px-0 mt-2 text-white   lg:leading-[30px] lg:text-[20px]">
+            {description}
           </p>
         </div>
       </div>
-      <div className="lg:mt-5 lg:mr-8 ml-8 mr-10 mt-5">
+      <div className=" ml-8 mr-10 mt-8 lg:mt-5 lg:mr-8">
         <Lottie
           animationData={img}
           style={

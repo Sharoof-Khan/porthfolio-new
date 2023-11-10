@@ -14,7 +14,7 @@ const social = [
   {
     title: "Linkedin",
     icon: <AiFillLinkedin size={35} />,
-    url: "https://www.linkedin.com/in/abhishek-bhoir-0a242212b/",
+    url: "https://www.linkedin.com/in/sharoof-khan-0703/",
   },
   // {
   //   title:"Facebook",
@@ -29,7 +29,7 @@ const social = [
   {
     title: "GitHub",
     icon: <AiFillGithub size={35} />,
-    url: "https://github.com/Abhibhoir222",
+    url: "https://github.com/sharoof-khan",
   },
 ];
 
@@ -59,16 +59,17 @@ const AboutMe = () => {
     >
       <div className=" flex flex-wrap  justify-between lg:flex-row flex-col  gap-5  ">
         <div className="lg:w-[30%] mt-3 lg:ml-36 lg:mb-28  lg:mt-16 ml-7 mr-7 lg:border-b-2 ">
-          <p className="lg:text-center text-justify text-gray-400">
+          <p className=" text-justify text-gray-300">
             With more than several years of experience working as a software
             engineer, I've developed skills and expertise to analyse businesses
             problems quickly, identify business needs, develop solutions and
             implement systems. I have an analytical mindset for solving problems
             which I consider as my strongest qualities. My interest includes new
-            technologies and research and Cascading Style Sheets CSS algorithms.
-            Im used to working in dynamic environment with tight deadlines,
-            where my communication and organizational skills can make things
-            happen. Also, I am quick learner and can adapt to any situation.
+            technologies and Observant and details oriented React and React
+            Native developer with specialization in MERN Stack. Im used to
+            working in dynamic environment with tight deadlines, where my
+            communication and organizational skills can make things happen.
+            Also, I am quick learner and can adapt to any situation.
           </p>
         </div>
         <div className=" flex  lg:w-[40%] justify-center flex-col  lg:mt-2 lg:mr-36 ml-7 mr-7 lg:border-b-2  ">

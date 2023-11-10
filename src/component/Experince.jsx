@@ -47,7 +47,7 @@ const Experince = () => {
         initial="out"
         exit="out"
         variants={PageTransion}
-        className="flex px-8 mb-6 lg:px-16 lg:min-h-[70vh]"
+        className="flex px-8 mb-16 lg:px-16 lg:min-h-[70vh] "
       >
         <div className="grid lg:grid-cols-2 gap-4 lg:mr-36 ">
           {expeincearry.map((item, index) => (
